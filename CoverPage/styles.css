@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+li,a,button{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(241, 237, 237);
+    text-decoration: none;
+}
+
+a{
+    transition: 0.3s ease-in;
+}
+
+a:hover{
+    color: rgb(142, 255, 255);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    width: 51px;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(142, 255, 255);
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.user{
+    padding-top: 60px;
+}
+
+img{
+    position: relative;
+    width: 550px;
+    left: 45px;
+}
+
+h2{
+    color: rgb(142, 255, 255);
+    float: right;
+    position: relative;
+    bottom: 490px;
+    right: 475px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h1{
+    color: rgb(142, 255, 255);
+    float: right;
+    position: relative;
+    bottom: 450px;
+    right: 226px;
+    font-weight: 500;
+    font-size: 60px;
+}
+span{
+    color: rgb(241, 237, 237);
+}
+
+p{
+    color: rgb(142, 255, 255);
+  float: right;
+  position: relative;
+  bottom: 282px;
+  right: -409px;
+  /* font-weight: 398; */
+  font-size: 17px;
+}
+
+
+
+
+
+
